@@ -15,7 +15,7 @@
 <a href="http://www.pifsc.noaa.gov"  target="_blank"><img src="marquee/image016.jpg" alt="PIFSC" style="border-style: none" /></a>
 <a href="http://www.fpir.noaa.gov"  target="_blank"><img src="marquee/image017.jpg" alt="PIRO" style="border-style: none" /></a>
 <a href="http://www.prh.noaa.gov/peac/"  target="_blank"><img src="marquee/image030.jpg" alt="PEAC" style="border-style: none" /></a>
-<a href="http://www.climate.gov"  target="_blank"><img src="marquee/image019.jpg" alt="NCS" style="border-style: none" /></a>
+<a href="http://www.climate.gov"  target="_blank"><img src="marquee/climategov.png" alt="NCS" style="border-style: none" /></a>
 <a href="http://www.csc.noaa.gov/psc/"  target="_blank"><img src="marquee/image020.jpg" alt="PSC" style="border-style: none" /></a>
 <a href="http://www.pacioos.org"  target="_blank"><img src="marquee/image057.jpg" alt="PacIOOS" style="border-style: none" /></a>
 <a href="http://www.pi-gcos.org"  target="_blank"><img src="marquee/image035.jpg" alt="PI-GCOS" style="border-style: none" /></a>
