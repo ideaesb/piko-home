@@ -45,8 +45,8 @@ showTitle:false,
     <li id="nav-1"><a href="#"><span>&nbsp; H O M E </span></a></li>
     <li><a href="/daps" title="daps"><span>Data &amp; Products</span></a></li>
     <li><a href="/paws" title="paws"><span>Projects &amp; Activities</span></a></li>
-    <li><a href="/assessments" title="assesments"><span>Assessments</span></a></li>
-    <li><a href="/partners" title="programs"><span>Partners &amp; Programs</span></a></li>
+    <li><a href="/asmts" title="assesments"><span>Assessments</span></a></li>
+    <li><a href="/orgs" title="programs"><span>Partners &amp; Programs</span></a></li>
   </ul>
 
   
@@ -75,9 +75,9 @@ showTitle:false,
      
  </div>
 
-  <div id="hover1"><a href="/daps?region=CNP">Data and Products</a><br><a href="/paws?region=CNP">Projects and Activities</a></div>
-  <div id="hover2"><a href="/daps?region=WNP">Data and Products</a><br><a href="/paws?region=WNP">Projects and Activities</a></div>
-  <div id="hover3"><a href="/daps?region=SP">Data and Products</a><br><a href="/paws?region=SP">Projects and Activities</a></div>	 		
+  <div id="hover1"><a href="/daps?region=CNP">Data and Products</a><br><a href="/pawz?region=CNP">Projects and Activities</a></div>
+  <div id="hover2"><a href="/daps?region=WNP">Data and Products</a><br><a href="/pawz?region=WNP">Projects and Activities</a></div>
+  <div id="hover3"><a href="/daps?region=SP">Data and Products</a><br><a href="/pawz?region=SP">Projects and Activities</a></div>	 		
 
    <p><i>This developmental website was put together by representatives of the NOAA NCDC working in support of the Pacific Climate Information System (PaCIS).</i> </p>
   
