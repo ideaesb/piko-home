@@ -44,7 +44,7 @@ showTitle:false,
   <ul id="nav">
     <li id="nav-1"><a href="#"><span>&nbsp; H O M E </span></a></li>
     <li><a href="/daps" title="daps"><span>Data &amp; Products</span></a></li>
-    <li><a href="/paws" title="paws"><span>Projects &amp; Activities</span></a></li>
+    <li><a href="/pawz" title="paws"><span>Projects &amp; Activities</span></a></li>
     <li><a href="/asmts" title="assesments"><span>Assessments</span></a></li>
     <li><a href="/orgs" title="programs"><span>Partners &amp; Programs</span></a></li>
   </ul>
