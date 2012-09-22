@@ -1,3 +1,20 @@
+<?php
+ $conn = pg_connect("dbname=piko user=postgres password=admin123");
+
+ $result=pg_query($conn, "SELECT COUNT(*) FROM dap");
+ $daps = pg_fetch_result($result, 0, 0);
+
+ $result=pg_query($conn, "SELECT COUNT(*) FROM paw");
+ $paws = pg_fetch_result($result, 0, 0);
+
+ $result=pg_query($conn, "SELECT COUNT(*) FROM asmt");
+ $asmts = pg_fetch_result($result, 0, 0);
+
+ $result=pg_query($conn, "SELECT COUNT(*) FROM org");
+ $orgs = pg_fetch_result($result, 0, 0);
+
+ pg_close ($conn);
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -42,11 +59,11 @@ showTitle:false,
 </div>
 
   <ul id="nav">
-    <li id="nav-1"><a href="#"><span>&nbsp; H O M E </span></a></li>
-    <li><a href="/daps" title="daps"><span>Data &amp; Products</span></a></li>
-    <li><a href="/pawz" title="paws"><span>Projects &amp; Activities</span></a></li>
-    <li><a href="/asmts" title="assesments"><span>Assessments</span></a></li>
-    <li><a href="/orgs" title="programs"><span>Partners &amp; Programs</span></a></li>
+    <li id="nav-1"><a href="#" title="Home Page"><span>&nbsp; H O M E </span></a></li>
+    <li><a href="/daps" title="Data &amp; Products (<?php echo $daps ?> )"><span>Data &amp; Products</span></a></li>
+    <li><a href="/pawz" title="Projects &amp; Activities (<?php echo $paws ?> )"><span>Projects &amp; Activities</span></a></li>
+    <li><a href="/asmts" title="Assesments (<?php echo $asmts ?> )"><span>Assessments</span></a></li>
+    <li><a href="/orgs" title="Partners &amp; Programs (<?php echo $orgs ?>)"><span>Partners &amp; Programs</span></a></li>
   </ul>
 
   
